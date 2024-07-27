@@ -446,18 +446,21 @@ input:-webkit-autofill {
 }
 
 .bg100 i {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .bg40 {
   background-color: #00BABA;
-  padding: 10px 25px;
+  padding: 10px 15px;
+  height: 100%;
 
 }
 
+.mianbg40 {}
+
 .bg60 {
   background-color: #ffffff;
-  padding: 23px 25px;
+  padding: 0 15px;
 
 }
 
@@ -469,6 +472,8 @@ input:-webkit-autofill {
 
 .bg60 h3 {
   margin-bottom: 0;
+
+
 }
 
 .mdi-account-convert::before {
