@@ -14,6 +14,15 @@ a {
   background: #fbfbfb;
 }
 
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+  margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+
+  box-shadow: none;
+}
 
 /* StagerDesignHeader */
 .StagerDesignHeader {
