@@ -1,0 +1,921 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-check:focus+.btn,
+.btn:focus,
+.btn-close:focus {
+  border-color: #c8c8c8;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+  background: #fbfbfb;
+}
+
+
+/* StagerDesignHeader */
+.StagerDesignHeader {
+  /* background-color: #060F66 */
+  background: transparent linear-gradient(105deg, #060F66, #0B103F) 0 0 no-repeat padding-box !important;
+
+}
+
+.StagerHeaderLogo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.StagerDesignHeaderDiv {
+  justify-content: space-between;
+}
+
+.StagerDesignHeadercollapse {
+  align-items: center;
+}
+
+.StagerNav-items {
+  margin: 0 10px;
+}
+
+.StagerNavs,
+.StagerNavs:hover {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff !important;
+}
+
+.ContactUsbtn,
+.ContactUsbtn:hover,
+.ContactUsbtn:focus {
+  background-color: #00BABA;
+  color: #010311;
+  font-size: 15px;
+  font-weight: 600;
+  height: 45px;
+  width: 191px;
+  border-radius: 0;
+}
+
+/* StagerDesignHeader*/
+
+/* .StagerDesignFullfooter */
+.StagerDesignFullfooter {
+  background: transparent linear-gradient(105deg, #060F66, #0B103F) 0 0 no-repeat padding-box !important;
+  padding: 40px 0 0;
+}
+
+.StagerDesignupperfooter {
+  padding-bottom: 20px;
+}
+
+.StagerDesignfooter_logo {
+  width: 95px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.StagerDesignfooter-menu {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0;
+}
+
+.StagerDesignfooter-headings {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.StagerDesignFooterList {
+  margin: 15px 0;
+}
+
+.StagerDesignFooterLinks,
+.StagerDesignFooterLinks:hover {
+  font-weight: 400;
+  font-size: 15px;
+  color: #808188;
+}
+
+.rowJustify {
+  border-top: 1px solid #FFF;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.StagerDesignCopyrightP,
+.rightsidefooterpart a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.mainfooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.StagerDesignfooterlocation {
+  display: flex;
+  margin: 15px 0;
+}
+
+.footerLocation {
+  width: 30px;
+}
+
+.StagerDesignFullfooter .phone-icon::before {
+  content: url(../images/Footer_phone.png);
+}
+
+.StagerDesignFullfooter .mail-icon::before {
+  content: url(../images/Footer_mail.png);
+}
+
+.StagerDesignFullfooter .location-icon::before {
+  content: url(../images/Footer_location.png);
+}
+
+/* .StagerDesignFullfooter */
+
+/*StagerDesign Homepage */
+.OurProductHomeTwo {
+  position: relative;
+}
+
+.Homepagebanner {
+  height: 100% !important;
+  background: transparent linear-gradient(105deg, #060F66, #0B103F) 0 0 no-repeat padding-box !important;
+  min-height: 400px;
+  padding-top: 15px;
+}
+
+.HomeBannerHeading {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.HomeBannerHeading span {
+  color: #00BABA;
+}
+
+.HomeBannerSubHeading {
+  color: #ffffff6b;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.OurProductHome {
+  padding: 40px 0 !important;
+
+}
+
+.OurProductHome .section-heading,
+.OurProductHome .section-heading,
+.OurProductHome .section-content,
+.OurProductHome .section-title {
+  color: #080C12;
+  text-transform: capitalize;
+}
+
+.OurProductHome .section-title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.OurProductHome .section-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'PublicaPlay-Bold';
+}
+
+.OurProductHome .section-content {
+  font-size: 18px;
+  padding: 10px 0;
+  margin-bottom: 0;
+  color: #808188;
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+input::-webkit-input-placeholder {
+  color: #ffffff80 !important;
+}
+
+
+.StagerHomebannerimage {
+  padding: 0 !important;
+}
+
+.ContactUsSection .section-heading,
+.ContactUsSection .section-content {
+  color: #fff;
+}
+
+.contact-us .FillUpDetails {
+  margin: 25px 0 0;
+}
+
+.contact-us .label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color: transparent;
+}
+
+/* StagerDesignHomepage */
+/* StagerDesignMentorbanner */
+.StagerDesignbanner-heading {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  font-family: 'PublicaPlay-Bold';
+}
+
+.StagerDesignbanner-subheading {
+  color: #fff;
+  font-weight: 400;
+}
+
+/* StagerDesignMentorbanner */
+/* StagerDesignCardsection */
+.StagerDesignCardsection {
+  padding: 40px 0;
+}
+
+.StagerDesignCardsection .StagerDesignCard,
+.StagerDesignDetailsCard {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  border: none;
+  padding: 30px 15px 20px;
+  margin: 15px 0;
+  color: #fff;
+  background-color: #fff;
+}
+
+.upperCardPart {
+  border-bottom: 1px solid rgba(140, 148, 133, 0.5);
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.StagerDesignCardImageDiv {
+  margin: auto;
+}
+
+.StagerDesignCardImageDiv .StagerDesignCardImage {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+.StagerDesignCardname,
+.StagerDesignCardtitle {
+  margin-bottom: 0;
+  color: #080C12;
+}
+
+.StagerDesignCardname {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.StagerDesignCardtitle {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.middleCardpart {
+  padding: 10px 0 0;
+  border-bottom: 1px solid rgba(140, 148, 133, 0.5);
+}
+
+.middleCardpart:last-child {
+  border-bottom: 0px solid rgba(140, 148, 133, 0.5);
+}
+
+.middleCardpart .StagerDesignCardheading {
+  font-weight: 600;
+  font-size: 16px;
+  color: #080C12;
+  margin-bottom: 10px;
+}
+
+.ExpertisesDiv {
+  margin: 10px 0;
+  position: relative;
+  width: 100%;
+}
+
+.ExpertisesDiv a {
+  color: #AAABB0;
+
+}
+
+.ExpertisesDiv ul {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+/* StagerDesignCardsection */
+/* StagerDesignDetailsPage */
+.StagerDesignCards {
+  margin: auto;
+}
+
+.StagerDesignDetailsCard {
+  padding: 25px 15px;
+}
+
+.StagerDesignDetailsCard .upperDetailsCard,
+.StagerDesignDetailsCard .leftside {
+  display: flex;
+  align-items: center;
+}
+
+.StagerDesignDetailsCard .upperDetailsCard {
+  justify-content: space-between;
+}
+
+.StagerDesignDetailsCard .StagerDesignCardImageDiv {
+  margin: 0 15px;
+}
+
+.StagerDesignDetailsCard .StagerDesignCardImageDiv .StagerDesignCardImage {
+  border-radius: 0%;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 0px;
+}
+
+.StagerDesignCardSideDiv .StagerDesignCardname {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.StagerDesignCardSideDiv .StagerDesignCardtitle {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.StagerDesignCardSideDiv {
+  margin-left: 20px;
+}
+
+.StagerDesignMentorsDetails {
+  padding-bottom: 40px;
+  margin-top: -100px;
+  position: relative;
+}
+
+.StagerDesignMentorsDetails .middleCardpart {
+  padding: 0;
+}
+
+.StagerDesignMentorsDetails .section-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* blogs css */
+.classes-card {
+  height: 100%;
+  /* margin-bottom: 30px; */
+}
+
+.classesInfo .card.classes-card {
+  padding: 0;
+}
+
+.classesInfo .card {
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+}
+
+.classesInfo .card-body.Classcard-body {
+  padding: 15px 20px;
+}
+
+.ClassesData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classesInfo .card-text:last-child {
+  margin-bottom: 0;
+}
+
+.classesInfo .Classcard-body .card-text {
+  font-size: 14px;
+  color: #080C12;
+  opacity: 0.7;
+}
+
+/* StagerDesignDetailsPage */
+.bg100 {
+  display: flex;
+}
+
+.bg100 i {
+  font-size: 50px;
+}
+
+.bg40 {
+  background-color: #00BABA;
+  padding: 10px 25px;
+
+}
+
+.bg60 {
+  background-color: #ffffff;
+  padding: 23px 25px;
+
+}
+
+.bg60 p {
+  font-size: 10px;
+  color: #010311a6;
+  margin-bottom: 0;
+}
+
+.bg60 h3 {
+  margin-bottom: 0;
+}
+
+.mdi-account-convert::before {
+  font-size: 50px;
+}
+
+.mdi-progress-check::before {
+  font-size: 50px;
+}
+
+.imagebnnertop {
+  position: relative;
+  top: -100px;
+}
+
+.Counton {
+  color: #00BABA;
+}
+
+.bg-adds {
+  background: transparent linear-gradient(105deg, #060F66, #0B103F) 0 0 no-repeat padding-box !important;
+
+}
+
+.bg-adds ul li {
+  color: #fff;
+  margin-right: 80px;
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+.bg-adds ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.speedup .btngroups {
+  display: flex;
+  border-bottom: 1px solid #808188;
+  /* padding-bottom: 10px; */
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.speedup .btnactive {
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  border-left: 6px solid #00BABA;
+  border-right: 6px solid #00BABA;
+  padding: 5px;
+}
+
+.bg-icon {
+  background-color: #00b2b24f;
+  padding: 3px 10px;
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  font-size: 30px;
+}
+
+.borderbody {
+  border-top: 1px solid #CDCDD7;
+}
+
+.borderdownbody {
+  border-bottom: 1px solid #CDCDD7;
+
+}
+
+.speedup .section-content {
+  color: #AAABB0;
+  margin: 25px 0 50px;
+}
+
+.speedup .strgerDesignCardheading {
+  color: #010311;
+}
+
+.speedup .card:hover .bg-icon {
+  background-color: #00BABA;
+}
+
+.speedup .card:hover .borderbody,
+.speedup .card:hover .card-footer {
+  border-top: 1px dashed #010311;
+}
+
+.speedup .card:hover .card-footer {
+  border-right: 20px solid #00BABA;
+}
+
+.speedup .card:hover.card {
+  border: 1px dashed #010311;
+}
+
+.speedup .card:hover .strgerDesignCardheading {
+  font-weight: 700;
+}
+
+.speedup .card:hover .card-footer {
+  background: transparent linear-gradient(105deg, #040A43, #0B103F) 0 0 no-repeat padding-box !important;
+
+}
+
+.speedup .card:hover .ExpertisesDiv a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.cardbottom {
+  margin-bottom: 30px;
+}
+
+.btngroupsbtn {
+  padding: 5px;
+}
+
+.solutions .strgerDesignCardheading {
+  padding: 1rem;
+  font-size: 21px;
+  margin-bottom: 0;
+}
+
+.solutions .card-footer {
+  height: 100%;
+}
+
+.solutions .card:hover .strgerDesignCardheading {
+  background-color: #050C4F;
+  color: #fff;
+}
+
+.solutions .card:hover.card {
+  border: 1px dashed #000 !important;
+}
+
+/* Faq start */
+.Faq {
+  position: relative;
+  background-color: #fff;
+}
+
+.Faq .faq-heading {
+  font-size: 2.22em;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 25px;
+
+}
+
+.Faq .faq-subheading {
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.Faq .col-md-12 .accordion-item:first-child {
+  margin-top: 0;
+}
+
+.Faq .accordion-item {
+  margin: 25px 0;
+  border: none;
+}
+
+.Faq .accordion-button {
+  padding: 15px 60px;
+  transition: ease 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+}
+
+.accordion-body {
+  padding: 15px 60px;
+}
+
+.Faq .accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #333;
+  box-shadow: none;
+  /* padding-bottom: 5px; */
+}
+
+.Faq .accordion-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.Faq .accordion-body {
+  color: #666;
+  font-size: 1em;
+  font-weight: 500;
+  border: 2px dashed #808188;
+  border-top: none;
+}
+
+.Faq .accordion-item,
+.Faq .accordion-button,
+.Faq .accordion-item:first-of-type .accordion-button,
+.Faq .accordion-item:last-of-type .accordion-button.collapsed,
+.Faq .accordion-item:not(:first-of-type),
+.Faq .accordion-item:first-of-type,
+.Faq .accordion-item:last-of-type {
+  color: #808188;
+  font-weight: 600;
+
+}
+
+.Faq .accordion-button.collapsed {
+  border: 2px solid #808188;
+}
+
+.Faq .accordion-button[aria-expanded="true"] {
+  border: 2px dashed #808188 !important;
+  border-bottom: none !important;
+}
+
+.Faq .accordion-button {
+  height: 95px;
+}
+
+.Faq .accordion-button::after {
+
+  font-size: 25px;
+  font-weight: 400;
+  background-image: none;
+  width: 30px;
+  height: 30px;
+  color: #FF3951;
+  background-color: #808188;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  /* margin-left: 10px; */
+}
+
+.Faq .accordion-button:not(.collapsed)::after {
+
+  color: #f7f7ff;
+  background-color: #0B103F;
+  /* transform: rotate(180deg); */
+}
+
+/* Faq end */
+.WeProvideHome {
+  padding: 0 40px 0;
+}
+
+.WeProvideHome .section-title {
+
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.WeProvideHome .section-heading {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'PublicaPlay-Bold';
+  text-align: start;
+}
+
+.WeProvideHome .section-subheading {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 1rem !important;
+}
+
+.WeProvideHome .section-content {
+  font-size: 15px;
+  padding-bottom: 1.5rem !important;
+  color: #AAABB0;
+
+}
+
+.WeProvideHome .para-description {
+  color: #808188;
+  padding-top: 15px;
+}
+
+.WeProvideHome .filter-button {
+  display: flex;
+  opacity: .5;
+  border-bottom: 1px solid #000;
+}
+
+.WeProvideHome .remove-border {
+  border-bottom: none;
+}
+
+
+.WeProvideHome a.filter-button.active {
+  opacity: 1;
+  border: 2px dashed #000;
+  border-left: none;
+  border-right: none;
+}
+
+.WeProvideHome .icon-card {
+  margin: 40px 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  box-shadow: 0 0 15px 0 #ddd;
+  background-color: #000;
+}
+
+.WeProvideHome .filter-button.active .icon-card {
+  background: #060F66;
+}
+
+.WeProvideHome .icon-card .icons-size {
+  width: 39px;
+  height: 37px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.WeProvideHome .filter-button.active .icon-card .icons-size {
+  filter: invert(0) brightness(2);
+}
+
+.FirstP {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.WeProvideHome a.filter-button.active .FirstP,
+.WeProvideHome a.filter-button.active:hover .FirstP {
+  color: #060F66;
+}
+
+.WeProvideHome a.filter-button .FirstP {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6e6f70;
+  cursor: pointer;
+  padding: 20px;
+}
+
+/* achievements end */
+/* client testimonial start */
+.client-testimonial {
+  padding: 40px 0 !important;
+  background: rgb(6, 14, 98);
+  background: linear-gradient(101deg, rgba(6, 14, 98, 1) 0%, rgba(2, 6, 44, 1) 53%);
+  position: relative;
+  color: #fff;
+}
+
+.testimonials-container {
+  position: relative;
+}
+
+.client-testimonial .bottomside-imagediv,
+.client-testimonial .topside-imagediv,
+.client-testimonial .client-namediv,
+.client-testimonial .client-image {
+  position: absolute;
+}
+
+.client-testimonial .topside-imagediv {
+  top: -75px;
+  left: 0;
+}
+
+.client-testimonial .bottomside-imagediv {
+  bottom: -80px;
+  right: 0;
+  z-index: 2;
+}
+
+.client-testimonial .section-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.client-testimonial .single-testimonial {
+  position: relative;
+  padding: 40px 20px;
+  border: 2px dashed #fff;
+  margin: 100px 0;
+  background-color: #0b103f;
+}
+
+.client-testimonial .client-image {
+  width: 140px;
+  height: 150px;
+  top: -100px;
+  left: 30px;
+}
+
+.client-testimonial .client-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.client-testimonial .testimonial-text {
+  text-align: start;
+}
+
+.client-testimonial .client-namediv {
+  bottom: -87px;
+  right: -2px;
+  border: 2px dashed #fff;
+  border-top: none;
+  padding: 15px;
+}
+
+.client-testimonial .client-name,
+.client-testimonial .client-designation {
+  margin: 0;
+  text-align: start;
+  font-weight: 400;
+}
+
+.client-testimonial .client-name {
+  font-size: 20px;
+}
+
+.client-testimonial .owl-nav .owl-prev,
+.client-testimonial .owl-nav .owl-next {
+  top: 41%;
+  position: absolute;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #34314e !important;
+
+}
+
+.client-testimonial .owl-nav .owl-prev {
+  left: -10%;
+}
+
+.client-testimonial .owl-nav .owl-next {
+  right: -10%;
+}
+
+#staff .owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  left: 0px;
+}
+
+/* client testimonial end */

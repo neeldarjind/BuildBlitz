@@ -1,0 +1,320 @@
+/* @media screen and (min-width: 1200px) */
+@media screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .HomeBannerHeading {
+    font-size: 45px;
+  }
+
+  .Homepagebanner .StagerHomebannerimage {
+    padding: 10px 0 30px;
+  }
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .HomeBannerHeading {
+    font-size: 30px;
+  }
+
+  .Homepagebanner {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .bg60 {
+
+    padding: 9px;
+  }
+
+  .bg40 {
+
+    padding: 10px;
+  }
+
+  .bg100 i {
+    font-size: 31px;
+  }
+}
+
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .StagerDesignFullfooter {
+    padding: 40px 0 0;
+  }
+
+  .HomeBannerSubHeading {
+    font-size: 14px;
+  }
+
+  .StagerDesignfooter-menu {
+    margin-bottom: 25px;
+  }
+
+  .StagerDesignFooterList {
+    margin: 12px 0;
+  }
+
+  .OurProductHome .section-heading {
+    font-size: 30px;
+  }
+
+  .OurProductHome .section-content {
+    font-size: 14px;
+  }
+
+  .speedup .btngroups {
+    width: 100%;
+  }
+
+  .solutions .strgerDesignCardheading {
+    font-size: 18px;
+  }
+}
+
+/* @media screen and (max-width: 991px) */
+@media screen and (max-width: 991px) {
+  .StagerDesignHeaderDiv {
+    background-color: #ffffff;
+  }
+
+  .StagerNavs,
+  .StagerNavs:hover {
+    color: #060f66 !important;
+    font-weight: 500;
+  }
+
+  .StagerHeaderLogo {
+    margin: 0;
+  }
+
+  .StagerDesignHeadercollapse2 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .StagerDesignHeadercollapse2 .btn {
+
+    margin: 0 5px;
+  }
+
+  .ContactUsbtn,
+  .ContactUsbtn:hover {
+    color: #f9fdff;
+    border: 1px solid #4aa9de;
+    margin-right: 10px;
+  }
+
+  .SignUpbtn,
+  .SignUpbtn:hover {
+    background-color: #4aa9de;
+    color: #fff;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {}
+
+/* @media screen and (max-width: 767px) */
+@media screen and (max-width: 767px) {
+
+  .OurProductHome {
+    padding: 30px 0 !important;
+  }
+
+  .OurProductHome .section-content {
+    font-size: 14px !important;
+  }
+
+  .StagerHomebannerimage {
+    text-align: center;
+    padding: 25px 0 !important;
+  }
+
+
+  .StagerDesignCardsection {
+    padding: 30px 0px;
+  }
+
+  .HomeBannerHeading {
+    font-size: 30px;
+  }
+
+
+
+  .Homepagebanner {
+    padding-top: 20px;
+  }
+
+  .OurProductHome .section-title {
+    font-size: 20px;
+  }
+
+  .OurProductHome .section-heading {
+    font-size: 30px;
+  }
+
+  h3.side-content-title {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+
+  .StagerDesignbanner-heading {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .StagerDesignbanner-subheading {
+    font-size: 15px;
+  }
+
+  .StagerDesignFullfooter {
+    padding: 25px 0 0;
+  }
+
+  .StagerDesignupperfooter {
+    padding: 0;
+  }
+
+
+
+  .store-icon {
+    justify-content: center;
+  }
+
+  .StagerHomebannerimage {
+    text-align: center;
+  }
+
+  .web-top {
+    padding-bottom: 40px;
+  }
+
+  .StagerDesignbanner-imagethree {
+    height: unset;
+  }
+
+  .StagerDesignDetailsCard .upperDetailsCard,
+  .StagerDesignDetailsCard .leftside {
+    display: block;
+  }
+
+  .StagerDesignDetailsCard {
+    text-align: center;
+  }
+
+  .imagebnnertop {
+    top: 15px;
+  }
+
+  .bg100 i {
+    font-size: 29px;
+
+  }
+
+  .bg60 {
+    padding: 10px 25px;
+  }
+
+  .leftsidefooterpart,
+  .rightsidefooterpart,
+  .mainfooter {
+    width: 100%;
+    display: block;
+    text-align: start;
+  }
+
+  .speedup .btngroups {
+    width: unset;
+  }
+}
+
+/* client testimonial start */
+@media screen and (max-width:767px) {
+  .client-testimonial .owl-nav .owl-prev {
+    left: -15%;
+  }
+
+  .client-testimonial .owl-nav .owl-next {
+    right: -15%;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .client-testimonial .owl-nav .owl-prev {
+    left: -10%;
+  }
+
+  .client-testimonial .owl-nav .owl-next {
+    right: -10%;
+  }
+
+  .client-testimonial .client-namediv {
+    bottom: -78px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:333px) {
+
+
+  .client-testimonial .client-namediv {
+    bottom: -101px;
+  }
+}
+
+/* client testimonial end */
+
+/* achievements start */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .WeProvideHome .section-heading {
+    margin-bottom: 15px;
+  }
+
+  .WeProvideHome .section-subheading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .WeProvideHome .section-title {
+    font-size: 20px;
+  }
+
+  .WeProvideHome .section-heading {
+    font-size: 25px;
+  }
+
+  .WeProvideHome .filter-button {
+    margin-bottom: 10px;
+  }
+
+  .WeProvideHome {
+    padding: 10px 0;
+  }
+
+  .Faq .accordion-button {
+    height: unset;
+  }
+
+  .Faq .accordion-button {
+    padding: 15px 35px;
+  }
+
+  .accordion-body {
+    padding: 10px;
+  }
+}
+
+/* achievements end */
+/* @media screen and (max-width: 425px) */
+@media screen and (max-width: 500px) {}
+
+
+
+@media screen and (max-width: 320px) {}
